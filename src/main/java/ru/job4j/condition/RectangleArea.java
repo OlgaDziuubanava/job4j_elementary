@@ -9,7 +9,7 @@ public class RectangleArea {
     }
 
     public static void main(String[] args) {
-        double result = RectangleArea.square(6, 2);
+        double result = RectangleArea.square(6.5, 2);
         System.out.println(" p = 4, k = 1, s = " + result);
     }
 }
