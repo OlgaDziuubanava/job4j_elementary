@@ -10,6 +10,7 @@ public class Converter {
        return value / 60;
 
     }
+
     public static void main(String[] args) {
         float input = 140;
         float expected = 2;
