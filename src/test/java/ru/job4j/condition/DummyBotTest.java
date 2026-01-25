@@ -16,7 +16,7 @@ class DummyBotTest {
 
     @Test
     void answer2() {
-        String input = "Bye";
+        String input = "Bye.";
         String result = DummyBot.answer(input);
         String expected = "See you later.";
         assertThat(result).isEqualTo(expected);
